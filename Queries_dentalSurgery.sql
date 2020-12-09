@@ -34,7 +34,7 @@ SELECT patientName, appDate FROM `appointment` WHERE status = "Cancelled";
 -- Sorting bill in Ascending order of billoverdue
 --
 -- ------------------------------------------------------------------------------------------------------------------------------------------------
-SELECT * FROM `bill` ORDER BY `bill`.`billOverdue` ASC
+SELECT * FROM `bill` ORDER BY `bill`.`billOverdue` ASC;
 -- ------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Dleting a paid bill from "bill"
