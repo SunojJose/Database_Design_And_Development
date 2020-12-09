@@ -78,7 +78,7 @@ ALTER TABLE feeguide ADD FOREIGN KEY (dentist_ID) REFERENCES dentist(dentist_ID)
 ALTER TABLE feeguide ADD FOREIGN KEY (staff_ID) REFERENCES staff(staff_ID);
 -- --------------------------------------------------------------------------------------------------------------------------------------------------
 ALTER TABLE appointment ADD FOREIGN KEY (staff_ID) REFERENCES staff(staff_ID);
-ALTER TABLE appointment ADD FOREIGN KEY (dentist_ID) REFERENCES dentist(dentist_ID;
+ALTER TABLE appointment ADD FOREIGN KEY (dentist_ID) REFERENCES dentist(dentist_ID);
 -- --------------------------------------------------------------------------------------------------------------------------------------------------
 ALTER TABLE treatment ADD FOREIGN KEY (dentist_ID) REFERENCES dentist(dentist_ID);
 -- --------------------------------------------------------------------------------------------------------------------------------------------------
