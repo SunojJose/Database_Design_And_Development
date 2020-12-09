@@ -70,7 +70,7 @@ ALTER TABLE work ADD FOREIGN KEY (treat_Number) REFERENCES treatment (treat_Numb
 -- -------------------------------------------------------------------------------------------------------------------------------------------------
 ALTER TABLE payment ADD FOREIGN KEY (patient_ID) REFERENCES patient (patient_ID);
 -- -------------------------------------------------------------------------------------------------------------------------------------------------
-ALTER TABLE dentalproblem ADD FOREIGN KEY (dentist_ID) REFERENCES dentist (dentist_ID;
+ALTER TABLE dentalproblem ADD FOREIGN KEY (dentist_ID) REFERENCES dentist (dentist_ID);
 -- -------------------------------------------------------------------------------------------------------------------------------------------------
 ALTER TABLE visitcard ADD FOREIGN KEY (work_No) REFERENCES work(work_No);
 -- -------------------------------------------------------------------------------------------------------------------------------------------------
